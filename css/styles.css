@@ -83,6 +83,7 @@ ul {
 
 .nav-link:active {
   color: var(--pressed-state);
+  text-decoration: underline;
 }
 
 .header-adress {
@@ -351,7 +352,7 @@ ul {
   border-radius: 4px;
 }
 
-.link-list li:active {
+.link-list li:hover {
   border-color: var(--pressed-state);
 }
 
@@ -362,7 +363,7 @@ ul {
 .customers-link {
   fill: #8e8f99;
 }
-.customers-link:active {
+.customers-link:hover {
   fill: var(--pressed-state);
 }
 

@@ -249,7 +249,8 @@ ul {
 }
 
 .team {
-  padding: 0;
+  padding: 120px 0;
+  background: var(--light);
 }
 
 .team-title {
@@ -319,8 +320,7 @@ ul {
 }
 
 .link-content {
-  padding-top: 240px;
-  margin: 0 0 120px 0;
+  padding: 120px 0;
 }
 
 .link-list {
@@ -370,23 +370,33 @@ ul {
 }
 
 .social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.social-title {
+.social-text {
+  margin: 0 0 16px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: var(--white-background);
 }
 
+.footer-link {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
 /*portfolio*/
 
 header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 100px;
 }
 
 .portfolio-content {
-  padding-top: 96px;
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-filters {
@@ -480,8 +490,8 @@ header {
 .services {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 120px;
+  gap: 48px 24px;
+  margin: 0;
 }
 
 .text-border {

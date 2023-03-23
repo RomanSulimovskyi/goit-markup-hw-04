@@ -202,6 +202,7 @@ ul {
 .about-item li {
   width: 264px;
   margin-bottom: 120px;
+  padding: 0;
 }
 
 .icon {
@@ -270,6 +271,7 @@ ul {
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 0;
 }
 
 .team-list li:not(:last-child) {
@@ -335,6 +337,8 @@ ul {
 .link-list {
   display: flex;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 .link-list li {
@@ -402,21 +406,23 @@ ul {
 }
 .social-media {
   display: block;
+  margin-left: 120px;
 }
 
 .social-text {
-  margin: 0 0 16px 120px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--white-background);
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .footer-link {
   display: flex;
   padding: 0;
-  margin: 0 0 0 120px;
   gap: 16px;
+  margin: 0;
 }
 /*portfolio*/
 

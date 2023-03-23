@@ -324,12 +324,17 @@ ul {
   background: var(--primary-brand);
 }
 
+.socials-link:hover {
+  background-color: var(--pressed-state);
+}
+
 .link-content {
   padding: 120px 0;
 }
 
 .link-list {
   display: flex;
+  cursor: pointer;
 }
 
 .link-list li {
@@ -342,8 +347,19 @@ ul {
   border-radius: 4px;
 }
 
+.link-list li:active {
+  border-color: var(--pressed-state);
+}
+
 .link-list li:not(:last-child) {
   margin-right: 24px;
+}
+
+.customers-link {
+  fill: #8e8f99;
+}
+.customers-link:active {
+  fill: var(--pressed-state);
 }
 
 .footer-business {
@@ -381,6 +397,9 @@ ul {
   color: var(--light);
 }
 
+.footer-active:active {
+  background: #31d0aa;
+}
 .social-media {
   display: block;
 }
